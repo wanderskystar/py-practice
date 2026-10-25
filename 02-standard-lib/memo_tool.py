@@ -1,3 +1,9 @@
+# 文件名：memo_tool.py
+# 功能：简易备忘录控制台程序,可以新增备忘录、查看全部备忘录、退出程序；os.path处理文件路径、追加写入本地文件保存内容
+# 学习点：os路径操作(os.path./abspath绝对路径/dirname父级目录/join(path1,path2)路径拼接)
+#        文件追加读写(用with打开后直接f.write(...))
+#        分支判断、异常捕获
+
 import os
 def memo_system():
     while  True:

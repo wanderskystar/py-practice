@@ -1,3 +1,7 @@
+#文件名：time_demo.py
+#功能:    datetime时间库示例，获取当前时间、计算两个日期相差天数、格式化输出日志样式时间
+#学习点：  datetime.now()       datetime(年,月,日)相减      %Y-%m-%d %H:%M:%S
+
 from datetime import  datetime
 def time_demo():
     now_time = datetime.now()

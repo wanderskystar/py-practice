@@ -1,3 +1,6 @@
+# 文件名：count_text.py
+# 功能： 读取指定文本 统计文本字数
+# 学习点：with文件读写(自动关闭)、字符范围判断('\u4e00' <= char <='\u9fff')、异常捕获(try..except)
 def count_text_file(file_path:str):
     line_count = 0
     chinese_count  = 0

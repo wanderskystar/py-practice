@@ -1,3 +1,8 @@
+#文件名：String_process.py
+#功能：文本清洗工具，去除多余空格、提取所有数字
+#学习点：1.字符串.split()拆分 
+#       2.拼接" ".join(字符串) 
+#       3.列表推导式[表达式 for 变量 in 可迭代对象 if 条件]  函数多返回值
 text = input()
 def text_clean(text):
     #text.split() 按空白的字符拆分，忽略掉空串
